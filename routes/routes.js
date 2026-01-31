@@ -25,7 +25,7 @@ function fibonacci(num){
 		return 1;
 	}
 	else {
-		console.log(num-2,"+" ,num-1);
+		//console.log(num-2,"+" ,num-1);
 		return Number(fibonacci (num-2)) + Number(fibonacci (num-1));
 	}
 }
